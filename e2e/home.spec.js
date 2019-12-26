@@ -1,10 +1,13 @@
+const TestIDs = require('../src/testIDs');
+
 describe('Detox Template', () => {
   beforeEach(async () => {
     await device.reloadReactNative();
   });
 
   it('should have welcome screen', async () => {
-    expect(element(by.id('welcome'))).toBeVisible();
+    await element(by.id(TestIDs.tabBarItemMe)).tap();
+    await expect(element(by.id(TestIDs.tabBarItemMe))).toBeVisible();
   });
 
   // it('should show hello screen after tap', async () => {
