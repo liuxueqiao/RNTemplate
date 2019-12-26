@@ -59,3 +59,5 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 /ios/Podfile.lock
+android/.project
+android/.settings

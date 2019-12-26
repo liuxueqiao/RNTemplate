@@ -30,6 +30,7 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
+          testID="welcome"
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
