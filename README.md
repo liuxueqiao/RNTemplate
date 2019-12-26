@@ -5,8 +5,8 @@
 ##### 运行流程
 
 ###### 1.npm install
-###### 2.react-native android (确定项目没问题，可以正常安装到手机)
-###### 3.yarn start (保持开启服务状态)
+###### 2.react-native run-android (确定项目没问题，可以正常安装到手机)
+###### 3.yarn start (保持开启服务状态的话可以不用这步)
 ###### 4.在package.json文件detox配置中，检查及修改真机adbName。adbName在运行2命令的末尾会打印出来。
 ###### 4.detox build -c android.emu.debug
 ###### 5.detox test -c android.emu.debug

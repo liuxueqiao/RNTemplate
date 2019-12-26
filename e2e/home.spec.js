@@ -1,4 +1,4 @@
-describe('Example', () => {
+describe('Detox Template', () => {
   beforeEach(async () => {
     await device.reloadReactNative();
   });
