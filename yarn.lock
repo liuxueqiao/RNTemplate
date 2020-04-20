@@ -931,6 +931,13 @@
     wcwidth "^1.0.1"
     ws "^1.1.0"
 
+"@react-native-community/datetimepicker@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.npm.taobao.org/@react-native-community/datetimepicker/download/@react-native-community/datetimepicker-2.2.2.tgz#4c6388631179098cc5b289146e879764f79af4c1"
+  integrity sha1-TGOIYxF5CYzFsokUboeXZPea9ME=
+  dependencies:
+    invariant "^2.2.4"
+
 "@react-native-community/eslint-config@^0.0.5":
   version "0.0.5"
   resolved "https://registry.npm.taobao.org/@react-native-community/eslint-config/download/@react-native-community/eslint-config-0.0.5.tgz#584f6493258202a57efc22e7be66966e43832795"
